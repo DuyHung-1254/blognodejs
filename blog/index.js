@@ -14,6 +14,7 @@ const port = 3000     // run trên port nào
 app.get('/loi-roi', (req, res) => {
   var x = 1;
   var y = 1 + x;
+  var z = "test";
   res.send('Hello World!')
 })
 
