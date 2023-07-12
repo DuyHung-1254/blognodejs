@@ -15,6 +15,7 @@ app.get('/loi-roi', (req, res) => {
   var x = 1;
   var y = 1 + x;
   var z = "test";
+  var r = "them vao xem nhu nao";
   res.send('Hello World!')
 })
 
